@@ -1,0 +1,55 @@
+.presentations-photos {
+    background-color: white;
+    padding: 10px;
+  }
+  
+.organisation-photos {
+  display: grid;
+  text-decoration: underline;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 400px 400px;  
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  }
+
+.portraits img {
+    display: grid;
+    height: 350px;
+    width: 500px;
+  }
+
+.paysages img {
+    display: grid;
+    height: 350px;
+    width: 500px;
+  }
+
+.urbain img {
+    display: grid;
+    height: 350px;
+    width: 500px;
+  }
+
+.argentiques img {
+    display: grid;
+    height: 350px;
+    width: 500px;
+  }
+  
+.introduction {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items:²² flex-start;
+    margin: auto;
+  }
+  .introduction h1 {
+    margin-bottom: 15px;
+  }
+  
+.introduction p {
+    margin-bottom: 20px;
+  }
+  
+  

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Khand', sans-serif;
+  font-size: 1em;
+  background-color: #ffffff;
+}
+
+section {
+  font-family: 'Khand', sans-serif;
+  padding: 40px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Khand', sans-serif;
+}
+
+em {
+  color: #000000;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #000000;
+  font-family: 'Khand', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+  font-family: 'Khand', sans-serif;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #2c2c2c;
+  font-family: 'Khand', sans-serif;
+}
+
+header,
+footer {
+  background-color: rgb(134, 134, 134);
+  padding: 20px 40px;
+}
+
+titre-end {
+  margin-right: 40px;
+  white-space: nowrap;
+}
+
+footer, 
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: wrap;
+  white-space: nowrap;
+}
+
+.rs a {
+  display: flex;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.rs div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex: auto;
+}
+
+nav a {
+  margin: 15px;
+}
+
+nav div {
+  text-align: center;
+  margin: 40px;
+}
+
+
